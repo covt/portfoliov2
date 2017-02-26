@@ -1,7 +1,10 @@
 import React from 'react'
+import Link from 'next/link'
 import Page from '../layouts/main'
 export default () => (
   <Page>
-    <p>Resume</p>
+    <div className='container'>
+      <p>Resume</p>
+    </div>
   </Page>
 )
