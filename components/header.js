@@ -6,7 +6,9 @@ export default () => (
     <Head>
       <style>{`
         .container {
-          max-width: 960px;
+          padding-left: 1em;
+          padding-right: 1em;
+          max-width: 1260px;
           margin: 0 auto;
         }
         body {
@@ -30,6 +32,14 @@ export default () => (
           text-transform: uppercase;
           font-weight: 300;
           margin: 1em 1em 1em 0;
+        }
+        .hero {
+          font-weight: 300;
+          height: 400px;
+          align-items: center;
+          flex-direction: column;
+          display: flex;
+          justify-content: center;
         }
       `}</style>
     </Head>

@@ -4,7 +4,10 @@ import Page from '../layouts/main'
 export default () => (
   <Page>
     <div className='container'>
-      <p>Welcome Home</p>
+      <div className='hero'>
+        <h1>Chris O'Connell</h1>
+        <p>UX Design & Front End Development</p>
+      </div>
     </div>
   </Page>
 )
