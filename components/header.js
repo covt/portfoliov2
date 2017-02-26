@@ -14,6 +14,25 @@ export default () => (
         body {
           font-family: Helvetica, sans-serif;
         }
+        section {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+        .article {
+          flex-basis: 100%;
+        }
+        @media screen and (min-width: 540px) {
+          ._25 {
+            flex: 2.5;
+          }
+          ._33 {
+            flex: 3.3;
+          }
+          ._66 {
+            flex: 6.6;
+          }
+        }
         .headerLink {
           text-decoration: none;
           color: blue;
@@ -40,6 +59,14 @@ export default () => (
           flex-direction: column;
           display: flex;
           justify-content: center;
+        }
+        .madeIn {
+          text-align: center;
+          font-weight: 300;
+          color: #333333;
+        }
+        .heart {
+          color: #ff3250;
         }
       `}</style>
     </Head>

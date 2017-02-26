@@ -2,7 +2,7 @@ import React from 'react'
 export default () => (
   <footer>
     <div className='container'>
-      <p>Hello from Footer</p>
+      <p className='madeIn'>Made with <span className="heart">♥</span> in San  Francisco</p>
     </div>
   </footer>
 )
