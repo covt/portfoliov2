@@ -13,14 +13,19 @@ export default () => (
         }
         body {
           font-family: Helvetica, sans-serif;
+          font-weight: 300;
+          font-size: 1.05em;
         }
         section {
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
         }
-        .article {
+        article {
           flex-basis: 100%;
+        }
+        article p {
+          line-height: 1.5em;
         }
         @media screen and (min-width: 540px) {
           ._25 {
@@ -32,6 +37,19 @@ export default () => (
           ._66 {
             flex: 6.6;
           }
+        }
+        .left {
+          padding-right: .5em;
+        }
+        .right {
+          padding-left: .5em; 
+        }
+        .fill {
+          overflow: hidden;
+          background-size: cover;
+          background-position: center;
+          background-image: url(http://placehold.it/400x400);
+          min-height: 250px;
         }
         .headerLink {
           text-decoration: none;
