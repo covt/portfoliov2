@@ -23,6 +23,7 @@ export default () => (
         }
         article {
           flex-basis: 100%;
+          margin-bottom: 1em;
         }
         article p {
           line-height: 1.5em;
@@ -39,17 +40,22 @@ export default () => (
           }
         }
         .left {
-          padding-right: .5em;
+          margin-right: .5em;
         }
         .right {
-          padding-left: .5em; 
+          margin-left: .5em; 
         }
         .fill {
           overflow: hidden;
           background-size: cover;
           background-position: center;
-          background-image: url(http://placehold.it/400x400);
-          min-height: 250px;
+          background-image: url(http://placehold.it/1260x400);
+          min-height: 220px;
+        }
+        .projectTile {
+          border: 4px solid #fff;
+          border-radius: 3px;
+          box-shadow: 0px 0px 1px #000000;
         }
         .headerLink {
           text-decoration: none;
