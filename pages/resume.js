@@ -4,7 +4,11 @@ import Page from '../layouts/main'
 export default () => (
   <Page>
     <div className='container'>
-      <p>Resume</p>
+      <section>
+        <article>
+          <h1>Chris O'Connell</h1>
+        </article>
+      </section>
     </div>
   </Page>
 )

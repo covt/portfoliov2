@@ -8,7 +8,7 @@ export default () => (
         .container {
           padding-left: 1em;
           padding-right: 1em;
-          max-width: 1260px;
+          max-width: 1060px;
           margin: 0 auto;
         }
         body {
@@ -20,10 +20,10 @@ export default () => (
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
+          margin-bottom: 1em;
         }
         article {
           flex-basis: 100%;
-          margin-bottom: 1em;
         }
         article p {
           line-height: 1.5em;
@@ -56,6 +56,7 @@ export default () => (
           border: 4px solid #fff;
           border-radius: 3px;
           box-shadow: 0px 0px 1px #000000;
+          margin-bottom: 1em;
         }
         .headerLink {
           text-decoration: none;
