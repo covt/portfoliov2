@@ -5,7 +5,7 @@ export default () => (
   <header>
     <Head>
       <style>{`
-        .container {
+        main {
           padding-left: 1em;
           padding-right: 1em;
           max-width: 1060px;
@@ -14,7 +14,25 @@ export default () => (
         body {
           font-family: Helvetica, sans-serif;
           font-weight: 300;
-          font-size: 1.05em;
+          font-size: 1.0em;
+        }
+        h1 {
+          font-size: 2em;
+        }
+        h2 {
+          font-size: 1.414em;
+        }
+        h3 {
+          font-size: 1.155;
+        }
+        h4 {
+          font-size: 1;
+        }
+        h5 {
+          font-size: 0.894;
+        }
+        h6 {
+          font-size: 0.816;
         }
         section {
           display: flex;
@@ -22,18 +40,22 @@ export default () => (
           flex-wrap: wrap;
           margin-bottom: 1em;
         }
-        article {
+        article,
+        aside {
           flex-basis: 100%;
         }
         article p {
           line-height: 1.5em;
         }
+        aside {
+          flex-basis: 100%;
+        }
         @media screen and (min-width: 540px) {
-          ._25 {
+          aside {
             flex: 2.5;
           }
-          ._33 {
-            flex: 3.3;
+          article {
+            flex: 7.5;
           }
           ._66 {
             flex: 6.6;
@@ -95,7 +117,7 @@ export default () => (
         }
       `}</style>
     </Head>
-    <div className='container'>
+    <main>
       <div className='headerLinks'>     
         <ul>
           <li>
@@ -113,6 +135,6 @@ export default () => (
           </li>
         </ul>
       </div>
-    </div>
+    </main>
   </header>
 )

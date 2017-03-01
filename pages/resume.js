@@ -8,6 +8,17 @@ export default () => (
         <article>
           <h1>Chris O'Connell</h1>
         </article>
+        <article>
+          <p>Product Design & Front End Development</p>
+        </article>
+      </section>
+      <section>
+        <aside>
+          <h2>Experience</h2>
+        </aside>
+        <article>
+          <h2>CoMediaDesign</h2>
+        </article>
       </section>
     </div>
   </Page>
