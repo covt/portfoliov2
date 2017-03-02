@@ -24,6 +24,8 @@ export default () => (
         }
         h3 {
           font-size: 1.155;
+          font-weight: 300;
+          margin: 0;
         }
         h4 {
           font-size: 1;
@@ -40,6 +42,9 @@ export default () => (
           flex-wrap: wrap;
           margin-bottom: 1em;
         }
+        .resume {
+          flex: 0 0 100%;
+        }
         article,
         aside {
           flex-basis: 100%;
@@ -47,18 +52,12 @@ export default () => (
         article p {
           line-height: 1.5em;
         }
-        aside {
-          flex-basis: 100%;
-        }
         @media screen and (min-width: 540px) {
           aside {
             flex: 2.5;
           }
           article {
             flex: 7.5;
-          }
-          ._66 {
-            flex: 6.6;
           }
         }
         .left {
