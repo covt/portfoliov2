@@ -45,11 +45,15 @@ export default () => (
         .resume {
           flex: 0 0 100%;
         }
+        .resume li {
+          margin-bottom: 1em;
+        }
         article,
         aside {
           flex-basis: 100%;
         }
-        article p {
+        article p,
+        li {
           line-height: 1.5em;
         }
         @media screen and (min-width: 540px) {
