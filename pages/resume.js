@@ -23,7 +23,7 @@ export default () => (
             <h3 className='resume'>March 2017 – Current</h3>
             <ul>
               <li>
-                Product Designer for Chute's core customer facing product 
+                Product Designer for Chute's core customer facing product
               </li>
             </ul>
           </div>
@@ -73,24 +73,24 @@ export default () => (
             <h3 className='resume'>UI/UX Designer</h3>
             <h3 className='resume'>February 2014 – June 2014</h3>
             <p>
-              Let's Rally is a Design Agency located off the Las Vegas Strip. Primary clients are majors casinos and their properties. Let's Rally is responsible for many of their landing pages and booking websites, as well as mobile applications. 
+              Let's Rally is a Design Agency located off the Las Vegas Strip. Primary clients are majors casinos and their properties. Let's Rally is responsible for many of their landing pages and booking websites, as well as mobile applications.
             </p>
             <ul>
               <li>
                 Only In-House Designer at Agency
               </li>
               <li>
-                Responsible for all Web, Mobile, Marketing, and Advertising, as well as Animated Advertising. 
+                Responsible for all Web, Mobile, Marketing, and Advertising, as well as Animated Advertising.
               </li>
               <li>
                 Designed iPad Check In & Marketing App for one of the largest casinos on the Las Vegas Strip.
-              </li> 
+              </li>
             </ul>
           </div>
           <div>
             <h2>Banjo</h2>
             <h3 className='resume'>UI/UX Designer</h3>
-            <h3 classname='resume'>May 2013 – February 2014</h3>
+            <h3 className='resume'>May 2013 – February 2014</h3>
             <p>
               Banjo instantly organizes the world’s social and digital signals by location, giving an unprecedented level of understanding of what’s happening anywhere in the world, in real time.
             </p>
@@ -102,7 +102,7 @@ export default () => (
                 Banjo V4 App was featured on the front page of iOS and Google App Stores in over 16 Countries translated into 14 languages
               </li>
               <li>
-                Trained other designers on iOS and Android Human Interface Guidelines and Processes. 
+                Trained other designers on iOS and Android Human Interface Guidelines and Processes.
               </li>
             </ul>
           </div>
@@ -111,13 +111,13 @@ export default () => (
             <h3 className='resume'>App King</h3>
             <h3 className='resume'>April 2013 – January 2014</h3>
             <p>
-              Downtown Project is a privately-funded, for-profit enterprise dedicated to helping revitalize part of downtown Las Vegas by investing in people and projects that share our vision of downtown as a hub of inspiration, entrepreneurial energy, creativity, innovation, prosperity, and discovery fueled by the Three C’s: collisions, co-learning, and connectedness. 
+              Downtown Project is a privately-funded, for-profit enterprise dedicated to helping revitalize part of downtown Las Vegas by investing in people and projects that share our vision of downtown as a hub of inspiration, entrepreneurial energy, creativity, innovation, prosperity, and discovery fueled by the Three C’s: collisions, co-learning, and connectedness.
             </p>
             <ul>
               <li>
                 Oversaw anything related to Mobile App Creation, Marketing, or Integration into Downtown Project or any related properties.
               </li>
-                Created Downtown Project Mobile App, which launched during the first Life is Beautiful music festival. 
+                Created Downtown Project Mobile App, which launched during the first Life is Beautiful music festival.
               <li>
                 Lead Community Engagement for Mobile and Social Applications for Downtown Project in Las Vegas to help gauge Culture Fit.
               </li>

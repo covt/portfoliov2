@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/Link'
+import Link from 'next/link'
 export default () => (
   <header>
     <Head>
@@ -68,7 +68,7 @@ export default () => (
           margin-right: .5em;
         }
         .right {
-          margin-left: .5em; 
+          margin-left: .5em;
         }
         .fill {
           overflow: hidden;
@@ -121,7 +121,7 @@ export default () => (
       `}</style>
     </Head>
     <main>
-      <div className='headerLinks'>     
+      <div className='headerLinks'>
         <ul>
           <li>
             Chris O'Connell
